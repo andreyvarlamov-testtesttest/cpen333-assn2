@@ -127,6 +127,7 @@
     <ClCompile Include="Garbage.cpp" />
     <ClCompile Include="JobSheet.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Receptionist.cpp" />
     <ClCompile Include="Recycling.cpp" />
     <ClCompile Include="Stores.cpp" />
     <ClCompile Include="Technician.cpp" />
@@ -135,6 +136,7 @@
     <ClInclude Include="Car.h" />
     <ClInclude Include="Garbage.h" />
     <ClInclude Include="JobSheet.h" />
+    <ClInclude Include="Receptionist.h" />
     <ClInclude Include="Recycling.h" />
     <ClInclude Include="Stores.h" />
     <ClInclude Include="Technician.h" />

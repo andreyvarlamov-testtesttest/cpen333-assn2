@@ -9,8 +9,8 @@ Car::Car(int oilType, int oilQuantity, bool airFilterClean, bool oilFilterClean,
 	airFilter_ = AirFilter(0, oilFilterClean);
 	tyres_ = Tyres(tyreMake, tyreSize, tyresWorn);
 	std::cout << "Car created: oil type  = " << oilType << " oil quantity = " << oilQuantity
-		<< "Air Filter Clean = " << airFilterClean << "Oil Filter Clean = " << oilFilterClean
-		<< "Tyre Make = " << tyreMake << "Tyre Size = " << tyreSize << "Tyres Worn = " << tyresWorn << std::endl;
+		<< " air filter clean = " << airFilterClean << " oil filter clean = " << oilFilterClean
+		<< " tyre make = " << tyreMake << " tyre size = " << tyreSize << " tyres worn = " << tyresWorn << std::endl;
 }
 
 Oil Car::swapOil(Oil newOil)

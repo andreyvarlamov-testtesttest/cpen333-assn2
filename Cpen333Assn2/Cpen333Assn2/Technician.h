@@ -6,6 +6,7 @@
 #include "Car.h"
 #include "Recycling.h"
 #include "Garbage.h"
+#include "JobSheet.h"
 
 class Technician
 {
@@ -17,5 +18,5 @@ private:
 	
 
 public:
-	void serviceCar(Car* car);
+	JobSheet serviceCar(Car car);
 };

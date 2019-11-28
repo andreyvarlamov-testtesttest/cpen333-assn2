@@ -26,7 +26,7 @@ OilFilter Stores::getOilFilter()
 Tyres Stores::getTyres(int make, int size, int quantity)
 {
 	Tyres newTyres(make, size, true);
-	std::cout << "Ordered new tyres: make = " << make << "size = " << size << std::endl;
+	std::cout << "Ordered new tyres: make = " << make << " size = " << size << std::endl;
 	return newTyres;
 }
 
